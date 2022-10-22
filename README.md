@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot/Web%20capture_22-10-2022_9256_127.0.0.1.jpeg)
+![](./screenshot.jpg)
 
 ### Links
 
@@ -35,7 +35,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Mobile-first workflow
 
 ### What I learned
-
+```html
+  <main class="container">
+    <article class="qr-code-card bg-white">
+      <img src="images/image-qr-code.png" alt="qr code image" class="qr-code" width="295px"/>
+      <h1 class="title font-bold text-dark-blue">Improve your front-end skills by building projects</h1>
+      <p class="description text-grayish-blue font-regular">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </article>
+  </main>
+```
 ```css
 :root {
   --light-gray: hsl(212, 45%, 89%);
